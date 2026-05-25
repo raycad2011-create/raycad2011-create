@@ -1,0 +1,1 @@
+"""Light AI Assistant package."""

@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+desktop.ini
+memory.json
+reminders.json
+.idea/
+.vscode/

@@ -1,0 +1,32 @@
+{
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "llama3.2:1b",
+    "timeout_seconds": 30,
+    "keep_alive": "30m",
+    "stream": false,
+    "max_tokens_short": 256,
+    "max_tokens_long": 768
+  },
+  "voice": {
+    "recognition_engine": "sphinx",
+    "rate": 180,
+    "volume": 0.9,
+    "listen_timeout": 5,
+    "phrase_time_limit": 8
+  },
+  "commands": {
+    "websites": {
+      "google": "https://www.google.com",
+      "youtube": "https://www.youtube.com",
+      "github": "https://github.com",
+      "chatgpt": "https://chatgpt.com"
+    },
+    "apps": {
+      "notepad": "notepad",
+      "calculator": "calc",
+      "spotify": "spotify",
+      "discord": "\"%LOCALAPPDATA%\\Discord\\Update.exe\" --processStart Discord.exe"
+    }
+  }
+}
